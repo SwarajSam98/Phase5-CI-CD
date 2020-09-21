@@ -7,6 +7,7 @@ Technologies involved
 •	AWS S3 (To store artifacts eg. .jar files)
 •	AWS EC2Instance
 •	Representing visually what we are doing here.
+![Block Diagram](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/BlockDiagram.PNG)
  
 Step 1:
 Create a simple spring boot application in IDE, eclipse or you can check out the code committed here.
