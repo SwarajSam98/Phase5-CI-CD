@@ -1,12 +1,12 @@
 # Phase5-CI-CD
 CI/CD Deployment for Springboot Application:
-Technologies involved
-1	Spring Boot Application in Java (RestFul Service in Spring Container)
-2	Maven (Build)
-3	Github (Code Repository)
-4	AWS S3 (To store artifacts eg. .jar files)
-5	AWS EC2Instance
-6	Representing visually what we are doing here.
+ Technologies involved
+   1	Spring Boot Application in Java (RestFul Service in Spring Container)
+   2	Maven (Build)
+   3	Github (Code Repository)
+   4	AWS S3 (To store artifacts eg. .jar files)
+   5	AWS EC2Instance
+   6	Representing visually what we are doing here.
 ![Block Diagram](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/BlockDiagram.PNG)
  
 Step 1:
