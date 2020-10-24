@@ -49,7 +49,7 @@ Copy URL and make it Public:
 Add the JAR file in the created amazon linux instance using the link copied from S3 Bucket:  
    ![AddJARFileInTheInstanceCreated](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/AddJARFileInTheInstanceCreated.PNG)
 Run the JAR file using the command java -jar JARname.jar:  
- ![RunTheJARFile](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/RunTheJARFile.PNG) 
+ ![RunTheJARFile](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/RunTheJARFile.png) 
 
 Copy the Public DNS from the instance created:  
  ![CopyPublic DNS](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CopyPublicDNS.PNG)
