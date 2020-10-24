@@ -29,30 +29,30 @@ Step 2:
  
 
 Select Amazon Linux AMI :
-![Amazon Linux](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/Create Instance.PNG)
+![Amazon Linux](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CreateInstance.PNG)
 
 Instance Created  
- ![Instance Created](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/EC2Instance Created.PNG)
+ ![Instance Created](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/EC2InstanceCreated.PNG)
 Download Security Key:  
-  ![.pem Downloaded](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/Download Security File.PNG)
+  ![.pem Downloaded](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/DownloadSecurityFile.PNG)
 Use PuttyGen to Decode the security file:  
-![PuttyGen](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/Use PuttyGen to decode the securityfile.PNG) 
+![PuttyGen](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/UsePuttyGentodecodethesecurityfile.PNG) 
 After this step Using Putty Launch the Amazon Linux:  
- ![Amazon Linux Launched](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/EC2 Instance Launched.PNG)
+ ![Amazon Linux Launched](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/EC2InstanceLaunched.PNG)
 Install JDK 1.8 in the Amazon Linux 2 Instance:  
   ![Install JDK 1.8](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/installjdk1.8.PNG)
 Create an S3 Bucket in AWS to add the JAR file and make that file public:  
    ![S3 Bucket](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CreateS3Bucket.PNG)
   ![Upload JAR](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/UploadJARFileInTheBucket.PNG)
 Copy URL and make it Public:  
- ![Copy URL And Make Public](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/Copy URL And Make Public.PNG)
+ ![Copy URL And Make Public](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CopyURLAndMakePublic.PNG)
 Add the JAR file in the created amazon linux instance using the link copied from S3 Bucket:  
    ![AddJARFileInTheInstanceCreated](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/AddJARFileInTheInstanceCreated.PNG)
 Run the JAR file using the command java -jar JARname.jar:  
  ![RunTheJARFile](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/RunTheJARFile.PNG) 
 
 Copy the Public DNS from the instance created:  
- ![CopyPublic DNS](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CopyPublic DNS.PNG)
+ ![CopyPublic DNS](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/CopyPublicDNS.PNG)
 Whenever you run this http://ec2-35-175-222-161.compute-1.amazonaws.com:8080/ you will get this output:
  ![Output](https://github.com/SwarajSam98/Phase5-CI-CD/blob/master/Images/Output.PNG) 
 
